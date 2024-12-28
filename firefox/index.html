@@ -13,20 +13,10 @@
       rel="stylesheet"
     />
   </head>
-  <body
-    class="bg-black text-white font-sans flex justify-center items-center min-h-screen w-[400px]"
-  >
+  <body class="bg-black text-white flex justify-center w-[400px]">
     <div class="max-w-md w-full bg-black p-6 space-y-6">
       <div class="flex justify-between items-center mb-4">
         <h1 class="text-3xl font-semibold text-white">🕋 Namaz Timings</h1>
-        <p
-          class="text-gray-400 cursor-not-allowed"
-          aria-disabled="true"
-          role="link"
-          target="_blank"
-        >
-          tutorial &#8599;
-        </p>
       </div>
 
       <div class="space-y-4">
@@ -35,6 +25,22 @@
         </p>
 
         <ul id="timings" class="space-y-3 py-6">
+          <li class="flex justify-between">
+            <span class="font-medium">Date:</span>
+            <span id="li-date" class="text-gray-500">Not Fetched</span>
+          </li>
+          <hr
+            class="border-t border-gray-500"
+            style="
+              border-width: 1px;
+              border-image: linear-gradient(
+                  to right,
+                  #4b5563 0%,
+                  transparent 100%
+                )
+                1;
+            "
+          />
           <li class="flex justify-between">
             <span class="font-medium">Fajr:</span>
             <span id="li-fajr" class="text-gray-500">Not Fetched</span>
@@ -80,17 +86,40 @@
 
       <div class="gap-y-2 flex flex-col">
         <button
-          id="location-button"
-          class="px-6 py-2 bg-gray-600 hover:bg-gray-700 rounded-sm text-white focus:outline-none focus:ring-2 focus:ring-gray-400"
-        >
-          Update Current Location
-        </button>
-        <button
           id="timings-button"
-          class="px-6 py-2 bg-gray-600 hover:bg-gray-700 rounded-sm text-white focus:outline-none focus:ring-2 focus:ring-gray-400"
+          class="px-6 py-2 bg-gray-600 hover:bg-gray-700 rounded-sm text-white focus:outline-none focus:ring-2 focus:ring-gray-400 transition-opacity"
         >
           Update Timings
         </button>
+        <button
+          id="location-button"
+          class="px-6 py-2 bg-gray-600 hover:bg-gray-700 rounded-sm text-white focus:outline-none focus:ring-2 focus:ring-gray-400 transition-opacity"
+        >
+          Update Current Location
+        </button>
+      </div>
+      <div class="flex flex-col">
+        <p class="text-slate-400">
+          If extension doesn't work, try
+          <span id="restart" class="text-red-500 cursor-pointer">closing</span>
+          & restarting.
+        </p>
+        <p class="text-slate-400">
+          For further inquiries visit our
+          <a
+            class="text-blue-500"
+            href="https://namaz-extension.vercel.app/"
+            target="_blank"
+            >website</a
+          >
+          or contact us
+          <a
+            class="text-emerald-500"
+            href="mailto:nabeelsadiq.dev@gmail.com"
+            target="_blank"
+            >here.</a
+          >
+        </p>
       </div>
     </div>
   </body>
