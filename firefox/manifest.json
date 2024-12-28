@@ -15,8 +15,13 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.mjs", "date.mjs"],
+      "js": ["content.js", "date.js"],
       "css": ["input.css", "output.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "namaz-timings-extension-firefox@namaz.com"
+    }
+  }
 }
