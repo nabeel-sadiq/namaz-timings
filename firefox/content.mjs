@@ -129,10 +129,10 @@ locationBtn.addEventListener("click", () => {
 });
 
 // Event listener for timings button
-timingsBtn.addEventListener("click", () => {
+timingsBtn.addEventListener("click", async () => {
   // If coordinates exist in localStorage, fetch namaz timings
   if (latitude && longitude) {
-    fetchNamaz(latitude, longitude);
+    await fetchNamaz(latitude, longitude);
     window.close();
   } else {
     console.error("Please fetch location first!");
