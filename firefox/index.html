@@ -19,12 +19,14 @@
     <div class="max-w-md w-full bg-black p-6 space-y-6">
       <div class="flex justify-between items-center mb-4">
         <h1 class="text-3xl font-semibold text-white">🕋 Namaz Timings</h1>
-        <a
-          class="text-gray-400 hover:underline"
-          href="https://namaz-extension.vercel.app/"
+        <p
+          class="text-gray-400 cursor-not-allowed"
+          aria-disabled="true"
+          role="link"
           target="_blank"
-          >tutorial &#8599;</a
         >
+          tutorial &#8599;
+        </p>
       </div>
 
       <div class="space-y-4">
@@ -76,7 +78,7 @@
         </ul>
       </div>
 
-      <div class="space-x-1">
+      <div class="gap-y-2 flex flex-col">
         <button
           id="location-button"
           class="px-6 py-2 bg-gray-600 hover:bg-gray-700 rounded-sm text-white focus:outline-none focus:ring-2 focus:ring-gray-400"
