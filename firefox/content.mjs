@@ -133,6 +133,7 @@ timingsBtn.addEventListener("click", () => {
   // If coordinates exist in localStorage, fetch namaz timings
   if (latitude && longitude) {
     fetchNamaz(latitude, longitude);
+    window.close();
   } else {
     console.error("Please fetch location first!");
     window.close();
