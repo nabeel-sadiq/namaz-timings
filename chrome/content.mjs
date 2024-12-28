@@ -63,7 +63,7 @@ async function fetchNamaz(a, b) {
       `https://api.aladhan.com/v1/timings/${currentDate}?latitude=${a}&longitude=${b}`
     );
     if (!res.ok) {
-      throw new Error("Please fetch location first!🔺");
+      window.close();
     }
     const resData = await res.json();
 
@@ -134,6 +134,7 @@ timingsBtn.addEventListener("click", () => {
   if (latitude && longitude) {
     fetchNamaz(latitude, longitude);
   } else {
-    pti.textContent = "Please fetch the location first.";
+    console.error("Please fetch location first!");
+    window.close();
   }
 });
