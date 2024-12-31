@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.mjs", "date.mjs"],
+      "js": ["scripts/content.mjs", "scripts/date.mjs"],
       "css": ["input.css", "output.css"]
     }
   ]

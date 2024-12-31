@@ -1,9 +1,0 @@
-{
-  "dependencies": {},
-  "devDependencies": {
-    "tailwindcss": "^3.4.17"
-  },
-  "scripts": {
-    "tw": "bunx tailwindcss -i ./input.css -o ./output.css --watch"
-  }
-}
