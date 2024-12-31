@@ -562,24 +562,12 @@ video {
   display: flex;
 }
 
-.w-\[350px\] {
-  width: 350px;
+.w-\[420px\] {
+  width: 420px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[0px\] {
-  width: 0px;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[420px\] {
-  width: 420px;
 }
 
 .max-w-md {
@@ -716,6 +704,11 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity, 1));
 }
 
 .text-red-500 {
