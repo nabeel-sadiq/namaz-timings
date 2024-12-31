@@ -2,18 +2,15 @@
 
 [![Namaz Timings Banner](./images/banner.png)](https://github.com/nabeel-sadiq/namaz-timings)
 
-<br>
-<br>
 Firefox browser extension that gets you the current namaz/salah timings in your area.
-<br>
-<br>
 
+<div align="center">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/namaz-timings/">
     <img src="./images/download_btn.png" alt="Download Button" width="350">
   </a>
+</div>
 
-<br>
-**Extension:** https://addons.mozilla.org/en-US/firefox/addon/namaz-timings/ <br>
-**Website:** https://namaztime.vercel.app/<br>
+**Extension:** [https://addons.mozilla.org/en-US/firefox/addon/namaz-timings/](https://addons.mozilla.org/en-US/firefox/addon/namaz-timings/)  
+**Website:** [https://namaztime.vercel.app/](https://namaztime.vercel.app/)
 
-_Created and maintained by [Nabeel Sadiq.](https://github.com/nabeel-sadiq)_
+_Created and maintained by [Nabeel Sadiq](https://github.com/nabeel-sadiq)._
