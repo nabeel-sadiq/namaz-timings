@@ -18,5 +18,10 @@
       "js": ["scripts/content.mjs", "scripts/date.mjs"],
       "css": ["input.css", "output.css"]
     }
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "namaz-timings@namaz.com"
+    }
+  }
 }
