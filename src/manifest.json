@@ -19,7 +19,7 @@
       "css": ["input.css", "output.css"]
     }
   ],
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "namaz-timings@namaz.com"
     }
